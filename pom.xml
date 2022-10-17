@@ -53,14 +53,14 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>3.0.0</version>
 		</dependency>
+
+	</dependencies>
 <!-- Deploy to Nexus -->
 <distributionManagement>
-...
-<url>http://192.168.1.17:8081/repository/maven-releases/</url>
-....
-</distributionManagement>
-	</dependencies>
 
+<url>http://192.168.1.17:8081/repository/maven-releases/</url>
+
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
